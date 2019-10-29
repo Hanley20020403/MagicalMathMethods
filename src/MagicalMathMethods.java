@@ -431,8 +431,8 @@ public class MagicalMathMethods extends javax.swing.JFrame {
       // Math.pow(double d1, double d2)
         double num1 = Double.parseDouble(txtBase.getText());    
         double num2 = Double.parseDouble(txtPower.getText());
-        double power = Math.pow(num1, num2);
-        lblPowerValue.setText(String.valueOf(power));
+        double power2 = Math.pow(num1, num2);
+        lblPowerValue.setText(String.valueOf(power2));
     }//GEN-LAST:event_btnPowerActionPerformed
 
     /**
